@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"github.com/wangsongyan/wblog/app/models"
+	"github.com/a112121788/wblog/app/models"
 	"strings"
 	"time"
 )

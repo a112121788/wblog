@@ -12,7 +12,7 @@ import (
 	//_ "github.com/go-sql-driver/mysql"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/config"
 )
 
 // I don't need soft delete,so I use customized BaseModel instead gorm.Model

@@ -19,7 +19,8 @@
 # Output of project
 *.db
 request.token
-/log/
+
+/log/*.log
 /vendor/*
 !/vendor/vendor.json
 dockerfile

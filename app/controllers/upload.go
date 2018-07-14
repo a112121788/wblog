@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/config"
 	"mime/multipart"
 	"net/http"
 	"os"

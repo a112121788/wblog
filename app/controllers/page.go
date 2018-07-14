@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/app/models"
+	"github.com/a112121788/wblog/app/models"
 	"net/http"
 	"strconv"
 )

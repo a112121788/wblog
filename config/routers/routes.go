@@ -1,16 +1,16 @@
 package routers
 
 import (
-	"github.com/wangsongyan/wblog/app/controllers"
+	"github.com/a112121788/wblog/app/controllers"
 	"github.com/gin-gonic/gin"
 	"path/filepath"
-	"github.com/wangsongyan/wblog/app/models"
+	"github.com/a112121788/wblog/app/models"
 	"github.com/cihub/seelog"
 	"net/http"
 	"github.com/gin-contrib/sessions"
-	"github.com/wangsongyan/wblog/app/helpers"
+	"github.com/a112121788/wblog/app/helpers"
 	"html/template"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/config"
 )
 
 func SetRouter(router *gin.Engine) {

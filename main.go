@@ -2,15 +2,15 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/app/models"
+	"github.com/a112121788/wblog/app/models"
 	"flag"
 	"github.com/jinzhu/gorm"
 	"os"
 	"io"
 	"github.com/claudiu/gocron"
-	"github.com/wangsongyan/wblog/app/controllers"
-	"github.com/wangsongyan/wblog/config"
-	"github.com/wangsongyan/wblog/config/routers"
+	"github.com/a112121788/wblog/app/controllers"
+	"github.com/a112121788/wblog/config"
+	"github.com/a112121788/wblog/config/routers"
 )
 
 func main() {

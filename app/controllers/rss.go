@@ -6,9 +6,9 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/feeds"
-	"github.com/wangsongyan/wblog/app/helpers"
-	"github.com/wangsongyan/wblog/app/models"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/app/helpers"
+	"github.com/a112121788/wblog/app/models"
+	"github.com/a112121788/wblog/config"
 )
 
 func RssGet(c *gin.Context) {
@@ -18,7 +18,7 @@ func RssGet(c *gin.Context) {
 		Title:       "Wblog",
 		Link:        &feeds.Link{Href: domain},
 		Description: "Wblog,talk about golang,java and so on.",
-		Author:      &feeds.Author{Name: "Wangsongyan", Email: "wangsongyanlove@163.com"},
+		Author:      &feeds.Author{Name: "a112121788", Email: "a112121788love@163.com"},
 		Created:     now,
 	}
 

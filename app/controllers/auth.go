@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/app/helpers"
+	"github.com/a112121788/wblog/app/helpers"
 	"net/http"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/config"
 )
 
 func AuthGet(c *gin.Context) {

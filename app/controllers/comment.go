@@ -10,8 +10,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
-	"github.com/wangsongyan/wblog/app/models"
-	"github.com/wangsongyan/wblog/config"
+	"github.com/a112121788/wblog/app/models"
+	"github.com/a112121788/wblog/config"
 )
 
 func CommentPost(c *gin.Context) {
